@@ -11,7 +11,7 @@ np.random.seed(42)
 
 # Database Connection String
 # Syntax: postgresql://username:password@localhost:port/database_name
-engine = create_engine('postgresql://postgres:umeanor01@localhost:5432/fintech_fraud_db')
+engine = create_engine('postgresql://postgres:your_password_here@localhost:5432/fintech_fraud_db')
 
 print("Generating synthetic enterprise dimensions...")
 
